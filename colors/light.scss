@@ -12,6 +12,6 @@ $colors: (
   "danger": #ec0b0b,
 );
 
-:root {
+.theme--light {
   @include functions.gradient($colors);
 }
