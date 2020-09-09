@@ -1,0 +1,7 @@
+@use "../functions/util.scss" as functions;
+
+:root {
+  @each $name, $value in $breakpoints {
+    @include functions.generate-variable($name, $value);
+  }
+}
