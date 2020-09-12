@@ -1,4 +1,4 @@
-# scss
+# Scss
 
 ## What it is ?
 
