@@ -1,0 +1,34 @@
+// Alignment
+
+.text-justify {
+  text-align: justify !important;
+}
+.text-wrap {
+  white-space: normal !important;
+}
+.text-nowrap {
+  white-space: nowrap !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.text-decoration-none {
+  text-decoration: none !important;
+}
+.text-break {
+  word-break: break-word !important; // IE & < Edge 18
+  overflow-wrap: break-word !important;
+}
+// Reset
+.text-reset {
+  color: inherit !important;
+}
