@@ -1,5 +1,4 @@
 // Alignment
-
 .text-justify {
   text-align: justify !important;
 }
@@ -11,6 +10,12 @@
 }
 .text-center {
   text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: right !important;
 }
 .text-lowercase {
   text-transform: lowercase !important;
@@ -31,4 +36,17 @@
 // Reset
 .text-reset {
   color: inherit !important;
+}
+// Unselectable text and logo
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+}
+.no-click {
+  pointer-events: none;
 }
