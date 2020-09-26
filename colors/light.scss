@@ -1,5 +1,0 @@
-@use "../functions/gradient.scss" as functions;
-
-.theme--light {
-  @include functions.gradient($colors);
-}

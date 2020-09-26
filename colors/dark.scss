@@ -1,5 +1,0 @@
-@use "../functions/gradient.scss" as functions;
-
-.theme--dark {
-  @include functions.gradient($colors);
-}
