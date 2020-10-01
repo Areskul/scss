@@ -1,8 +1,0 @@
-@mixin generate-variable($name, $value) {
-  --#{$name}: #{$value};
-}
-:root {
-  @each $name, $value in $breakpoints {
-    @include generate-variable($name, $value);
-  }
-}
